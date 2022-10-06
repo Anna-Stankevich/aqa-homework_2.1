@@ -19,7 +19,7 @@ class HomeworkTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("this is not homework"))
+                .body("data", equalTo("this is homework"))
         ;
 
     }
